@@ -1,0 +1,52 @@
+name: 🐞 Bug
+description: 反馈一个 Bug
+title: "[BUG] <title>"
+labels: [bug]
+body:
+- type: textarea
+  id: error
+  attributes:
+    label: 出错内容
+    description: 简要概述错误内容
+  validations:
+    required: false
+- type: textarea
+  id: expected
+  attributes:
+    label: 预期行为
+    description: 简要概述你的预期结果
+  validations:
+    required: false
+- type: textarea
+  id: reproduce
+  attributes:
+    label: 复现方法
+    description: 阐明如何复现该错误
+    placeholder: |
+      1. 运行了...
+      2. 发生了错误...
+  validations:
+    required: false
+- type: textarea
+  id: enviroment
+  attributes:
+    label: 环境
+    description: |
+      examples:
+        - **系统**: HarmonyOS 3
+        - **机型**: HUAWEI P60 Art
+        - **应用版本**: 0.0.1
+    value: |
+        - 系统:
+        - 机型:
+        - 应用版本:
+    render: markdown
+  validations:
+    required: false
+- type: textarea
+  id: other
+  attributes:
+    label: 其他内容
+    description: 你可以在此处拖拽上传图片或日志
+  validations:
+    required: false
