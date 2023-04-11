@@ -36,14 +36,10 @@ body:
         - **系统**: HarmonyOS 3
         - **机型**: HUAWEI P60 Art
         - **应用版本**: 0.0.1
-        - **发生时间**: 1970-1-1 00:00
-        - **用户ID**: colour93
     value: |
         - 系统:
         - 机型:
         - 应用版本:
-        - 发生时间:
-        - 用户ID
     render: markdown
   validations:
     required: false
